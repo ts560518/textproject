@@ -8,7 +8,6 @@ public class Stack {
 	
 	public Stack() {
 		top = -1;
-		this.stack_size = stack_size;
 		stackArr = new int[stack_size];
 	}
 	
@@ -36,5 +35,7 @@ public class Stack {
 		}
 		return 0;
 	}
+	
+	
 	
 }
